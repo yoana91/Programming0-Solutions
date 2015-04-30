@@ -5,8 +5,9 @@ def max_score(beers, fries):
    
 
     for index in range(0, len(beers)):
-        result += beers[index] *fries[index]
+        result += beers[index] * fries[index]
 
 
     return result
+
 print(max_score([10, 11], [1, 5]))
